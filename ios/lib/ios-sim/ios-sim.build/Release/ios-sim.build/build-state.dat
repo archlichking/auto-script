@@ -1,0 +1,303 @@
+Tios-sim
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-hgzvntyzpibuqneridjhcsponopj/ios-sim_Prefix.pch.pth ios-sim_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-dmjqfwhqgarhicanhhaghtqjqity/ios-sim_Prefix.pch.pth ios-sim_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/iPhoneSimulator.o /Users/thunderzhulei/lay-zhu/ios-sim/Source/iPhoneSimulator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/main.o /Users/thunderzhulei/lay-zhu/ios-sim/Source/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/nsprintf.o /Users/thunderzhulei/lay-zhu/ios-sim/Source/nsprintf.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/NSString+expandPath.o /Users/thunderzhulei/lay-zhu/ios-sim/Source/NSString+expandPath.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/iPhoneSimulator.o /Users/thunderzhulei/lay-zhu/ios-sim/Source/iPhoneSimulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/main.o /Users/thunderzhulei/lay-zhu/ios-sim/Source/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/NSString+expandPath.o /Users/thunderzhulei/lay-zhu/ios-sim/Source/NSString+expandPath.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/nsprintf.o /Users/thunderzhulei/lay-zhu/ios-sim/Source/nsprintf.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/ios-sim normal i386
+cLd /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/ios-sim normal x86_64
+cCreateUniversalBinary /Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim normal "x86_64 i386"
+cGenerateDSYMFile /Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim.dSYM /Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk
+c000000004F68C2CD00000000000000EE
+t1332265677
+s238
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004F68C2D900000000000013E6
+t1332265689
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F9D06A60000000000942520
+t1335690918
+s9708832
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/Source/NSString+expandPath.m
+c000000004FC52F2600000000000001B4
+t1338322726
+s436
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/Source/iPhoneSimulator.m
+c000000004FC52F260000000000003001
+t1338322726
+s12289
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/Source/main.m
+c000000004FC52F2600000000000002C8
+t1338322726
+s712
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/Source/nsprintf.m
+c000000004FC52F26000000000000033B
+t1338322726
+s827
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim
+t2
+s0
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim.dSYM
+t2
+s0
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/NSString+expandPath.o
+t2
+s0
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/iPhoneSimulator.o
+t2
+s0
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/ios-sim
+t2
+s0
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/ios-sim.LinkFileList
+c000000004FC52F6A00000000000001C6
+t1338322794
+s454
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/nsprintf.o
+t2
+s0
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/NSString+expandPath.o
+t2
+s0
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/iPhoneSimulator.o
+t2
+s0
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/ios-sim
+t2
+s0
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/ios-sim.LinkFileList
+c000000004FC52F6A00000000000001CE
+t1338322794
+s462
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/nsprintf.o
+t2
+s0
+
+N/Users/thunderzhulei/lay-zhu/ios-sim/ios-sim_Prefix.pch
+c000000004FC52F2600000000000000A0
+t1338322726
+s160
+i<Foundation/Foundation.h>
+
+N/var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-dmjqfwhqgarhicanhhaghtqjqity/ios-sim_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-hgzvntyzpibuqneridjhcsponopj/ios-sim_Prefix.pch.pth
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies807fcee96675b541^713827ea6675b541^---0#1#0#--18"Check dependencies36"34D45FCF-DDAE-4DF2-844B-0E92F1CD529B-
+
+CCompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/NSString+expandPath.o /Users/thunderzhulei/lay-zhu/ios-sim/Source/NSString+expandPath.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360015596.765675
+e360015596.810006
+r1
+xCompileC
+xbuild/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/NSString+expandPath.o
+x/Users/thunderzhulei/lay-zhu/ios-sim/Source/NSString+expandPath.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/thunderzhulei/lay-zhu/ios-sim/Source/NSString+expandPath.mc537c4ec6675b541^295ccfec6675b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/thunderzhulei/lay-zhu/ios-sim/Source/NSString+expandPath.m0000000000000000^2899"CompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/NSString+expandPath.o Source/NSString+expandPath.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thunderzhulei/lay-zhu/ios-sim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-generated-files.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-own-target-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-all-target-headers.hmap -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-project-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/include -I. -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources/i386 -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources -F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -include /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-dmjqfwhqgarhicanhhaghtqjqity/ios-sim_Prefix.pch -MMD -MT dependencies -MF /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/NSString+expandPath.d --serialize-diagnostics /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/NSString+expandPath.dia -c /Users/thunderzhulei/lay-zhu/ios-sim/Source/NSString+expandPath.m -o /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/NSString+expandPath.o36"1DA45BA8-F04B-4A19-9620-24965F46696A-
+
+CCompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/iPhoneSimulator.o /Users/thunderzhulei/lay-zhu/ios-sim/Source/iPhoneSimulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360015596.765066
+e360015597.544039
+r1
+xCompileC
+xbuild/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/iPhoneSimulator.o
+x/Users/thunderzhulei/lay-zhu/ios-sim/Source/iPhoneSimulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/thunderzhulei/lay-zhu/ios-sim/Source/iPhoneSimulator.m1902c4ec6675b541^88468bed6675b541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/thunderzhulei/lay-zhu/ios-sim/Source/iPhoneSimulator.m0000000000000000^2875"CompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/iPhoneSimulator.o Source/iPhoneSimulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thunderzhulei/lay-zhu/ios-sim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-generated-files.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-own-target-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-all-target-headers.hmap -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-project-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/include -I. -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources/i386 -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources -F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -include /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-dmjqfwhqgarhicanhhaghtqjqity/ios-sim_Prefix.pch -MMD -MT dependencies -MF /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/iPhoneSimulator.d --serialize-diagnostics /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/iPhoneSimulator.dia -c /Users/thunderzhulei/lay-zhu/ios-sim/Source/iPhoneSimulator.m -o /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/iPhoneSimulator.o36"774E5633-8490-41D4-8D15-FD54AF11E731-
+
+CCompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/main.o /Users/thunderzhulei/lay-zhu/ios-sim/Source/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360015596.765662
+e360015597.440067
+r1
+xCompileC
+xbuild/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/main.o
+x/Users/thunderzhulei/lay-zhu/ios-sim/Source/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/thunderzhulei/lay-zhu/ios-sim/Source/main.m8b35c4ec6675b541^f4a870ed6675b541^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/thunderzhulei/lay-zhu/ios-sim/Source/main.m0000000000000000^2809"CompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/main.o Source/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thunderzhulei/lay-zhu/ios-sim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-generated-files.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-own-target-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-all-target-headers.hmap -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-project-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/include -I. -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources/i386 -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources -F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -include /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-dmjqfwhqgarhicanhhaghtqjqity/ios-sim_Prefix.pch -MMD -MT dependencies -MF /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/main.dia -c /Users/thunderzhulei/lay-zhu/ios-sim/Source/main.m -o /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/main.o36"66C86B88-C0D7-44A0-9F30-65D4E773A5BA-
+
+CCompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/nsprintf.o /Users/thunderzhulei/lay-zhu/ios-sim/Source/nsprintf.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360015596.765717
+e360015596.810302
+r1
+xCompileC
+xbuild/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/nsprintf.o
+x/Users/thunderzhulei/lay-zhu/ios-sim/Source/nsprintf.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/thunderzhulei/lay-zhu/ios-sim/Source/nsprintf.mb43bc4ec6675b541^bd70cfec6675b541^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/thunderzhulei/lay-zhu/ios-sim/Source/nsprintf.m0000000000000000^2833"CompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/nsprintf.o Source/nsprintf.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thunderzhulei/lay-zhu/ios-sim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-generated-files.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-own-target-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-all-target-headers.hmap -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-project-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/include -I. -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources/i386 -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources -F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -include /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-dmjqfwhqgarhicanhhaghtqjqity/ios-sim_Prefix.pch -MMD -MT dependencies -MF /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/nsprintf.d --serialize-diagnostics /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/nsprintf.dia -c /Users/thunderzhulei/lay-zhu/ios-sim/Source/nsprintf.m -o /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/nsprintf.o36"7D5A51D9-FB6B-43DA-8F47-43D7945ADD1B-
+
+CCompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/NSString+expandPath.o /Users/thunderzhulei/lay-zhu/ios-sim/Source/NSString+expandPath.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360015596.600901
+e360015596.804857
+r1
+xCompileC
+xbuild/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/NSString+expandPath.o
+x/Users/thunderzhulei/lay-zhu/ios-sim/Source/NSString+expandPath.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/thunderzhulei/lay-zhu/ios-sim/Source/NSString+expandPath.ma60e9aec6675b541^4e0bceec6675b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/thunderzhulei/lay-zhu/ios-sim/Source/NSString+expandPath.m0000000000000000^2913"CompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/NSString+expandPath.o Source/NSString+expandPath.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thunderzhulei/lay-zhu/ios-sim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-generated-files.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-own-target-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-all-target-headers.hmap -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-project-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/include -I. -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources/x86_64 -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources -F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -include /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-hgzvntyzpibuqneridjhcsponopj/ios-sim_Prefix.pch -MMD -MT dependencies -MF /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/NSString+expandPath.d --serialize-diagnostics /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/NSString+expandPath.dia -c /Users/thunderzhulei/lay-zhu/ios-sim/Source/NSString+expandPath.m -o /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/NSString+expandPath.o36"DF51A60B-37E4-480B-A0AB-56B0F28752B3-
+
+CCompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/iPhoneSimulator.o /Users/thunderzhulei/lay-zhu/ios-sim/Source/iPhoneSimulator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360015596.600755
+e360015597.547332
+r1
+xCompileC
+xbuild/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/iPhoneSimulator.o
+x/Users/thunderzhulei/lay-zhu/ios-sim/Source/iPhoneSimulator.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/thunderzhulei/lay-zhu/ios-sim/Source/iPhoneSimulator.mf20c9aec6675b541^691e8ced6675b541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/thunderzhulei/lay-zhu/ios-sim/Source/iPhoneSimulator.m0000000000000000^2889"CompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/iPhoneSimulator.o Source/iPhoneSimulator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thunderzhulei/lay-zhu/ios-sim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-generated-files.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-own-target-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-all-target-headers.hmap -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-project-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/include -I. -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources/x86_64 -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources -F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -include /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-hgzvntyzpibuqneridjhcsponopj/ios-sim_Prefix.pch -MMD -MT dependencies -MF /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/iPhoneSimulator.d --serialize-diagnostics /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/iPhoneSimulator.dia -c /Users/thunderzhulei/lay-zhu/ios-sim/Source/iPhoneSimulator.m -o /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/iPhoneSimulator.o36"4D9DEF8D-1AD8-4419-8460-6401390766CE-
+
+CCompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/main.o /Users/thunderzhulei/lay-zhu/ios-sim/Source/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360015596.600824
+e360015597.440142
+r1
+xCompileC
+xbuild/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/main.o
+x/Users/thunderzhulei/lay-zhu/ios-sim/Source/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/thunderzhulei/lay-zhu/ios-sim/Source/main.m880d9aec6675b541^6cb470ed6675b541^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/thunderzhulei/lay-zhu/ios-sim/Source/main.m0000000000000000^2823"CompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/main.o Source/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thunderzhulei/lay-zhu/ios-sim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-generated-files.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-own-target-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-all-target-headers.hmap -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-project-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/include -I. -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources/x86_64 -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources -F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -include /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-hgzvntyzpibuqneridjhcsponopj/ios-sim_Prefix.pch -MMD -MT dependencies -MF /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/main.dia -c /Users/thunderzhulei/lay-zhu/ios-sim/Source/main.m -o /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/main.o36"FF25E841-9C61-4C7B-B26E-4A7272F7DB7A-
+
+CCompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/nsprintf.o /Users/thunderzhulei/lay-zhu/ios-sim/Source/nsprintf.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360015596.600840
+e360015596.805203
+r1
+xCompileC
+xbuild/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/nsprintf.o
+x/Users/thunderzhulei/lay-zhu/ios-sim/Source/nsprintf.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/thunderzhulei/lay-zhu/ios-sim/Source/nsprintf.mbb0d9aec6675b541^cc24ceec6675b541^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/thunderzhulei/lay-zhu/ios-sim/Source/nsprintf.m0000000000000000^2847"CompileC build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/nsprintf.o Source/nsprintf.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thunderzhulei/lay-zhu/ios-sim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-generated-files.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-own-target-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-all-target-headers.hmap -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-project-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/include -I. -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources/x86_64 -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources -F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -include /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-hgzvntyzpibuqneridjhcsponopj/ios-sim_Prefix.pch -MMD -MT dependencies -MF /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/nsprintf.d --serialize-diagnostics /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/nsprintf.dia -c /Users/thunderzhulei/lay-zhu/ios-sim/Source/nsprintf.m -o /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/nsprintf.o36"E899017E-16F5-4C7F-BA51-22C327D1337E-
+
+CCreateUniversalBinary /Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim normal "x86_64 i386"
+s360015598.043448
+e360015598.112190
+r1
+xCreateUniversalBinary
+x/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim
+xnormal
+xx86_64 i386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Create universal binary /Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim26360bee6675b541^bfb81cee6675b541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim000080513c031042^418"CreateUniversalBinary build/Release/ios-sim normal "x86_64 i386"    cd /Users/thunderzhulei/lay-zhu/ios-sim    /usr/bin/lipo -create /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/ios-sim /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/ios-sim -output /Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim36"B00493F6-9F6B-4ABC-9194-1C81AB73C737-
+
+CGenerateDSYMFile /Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim.dSYM /Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim
+s360015598.119125
+e360015598.163065
+r1
+xGenerateDSYMFile
+x/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim.dSYM
+x/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Generating /Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim.dSYM6b9b1eee6675b541^c6c129ee6675b541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim.dSYM000000000080d041^300"GenerateDSYMFile build/Release/ios-sim.dSYM build/Release/ios-sim    cd /Users/thunderzhulei/lay-zhu/ios-sim    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim -o /Users/thunderzhulei/lay-zhu/ios-sim/build/Release/ios-sim.dSYM36"2934FDAA-7FE9-485D-8536-D1CB9F4AD34A-
+
+CLd /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/ios-sim normal i386
+s360015597.550420
+e360015598.013726
+r1
+xLd
+x/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/ios-sim
+xnormal
+xi386
+old: warning: directory not found for option '-L/Users/thunderzhulei/lay-zhu/ios-sim/build/Release'
+old: warning: directory not found for option '-F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Link /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/ios-simc5008ded6675b541^628503ee6675b541^-198"ld: warning: directory not found for option '-L/Users/thunderzhulei/lay-zhu/ios-sim/build/Release'ld: warning: directory not found for option '-F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release'2(21%IDEActivityLogMessage2@85"Directory not found for option '-L/Users/thunderzhulei/lay-zhu/ios-sim/build/Release'-360015597#0#99#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@85"Directory not found for option '-F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release'-360015597#99#99#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1276"Ld build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/ios-sim normal i386    cd /Users/thunderzhulei/lay-zhu/ios-sim    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -L/Users/thunderzhulei/lay-zhu/ios-sim/build/Release -F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -filelist /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/ios-sim.LinkFileList -mmacosx-version-min=10.6 -framework AppKit -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -framework iPhoneSimulatorRemoteClient -Wl,-rpath -Wl,/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -Wl,-rpath -Wl,/Applications/Xcode.app/Contents/Developer/../OtherFrameworks -framework Foundation -o /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/i386/ios-sim36"C3CA6EEC-0BC2-46D0-A659-9439E867FA54-
+
+CLd /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/ios-sim normal x86_64
+s360015597.553436
+e360015598.035621
+r1
+xLd
+x/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/ios-sim
+xnormal
+xx86_64
+old: warning: directory not found for option '-L/Users/thunderzhulei/lay-zhu/ios-sim/build/Release'
+old: warning: directory not found for option '-F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Link /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/ios-simf4c28ded6675b541^ff2109ee6675b541^-198"ld: warning: directory not found for option '-L/Users/thunderzhulei/lay-zhu/ios-sim/build/Release'ld: warning: directory not found for option '-F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release'2(21%IDEActivityLogMessage2@85"Directory not found for option '-L/Users/thunderzhulei/lay-zhu/ios-sim/build/Release'-360015597#0#99#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@85"Directory not found for option '-F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release'-360015597#99#99#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1286"Ld build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/ios-sim normal x86_64    cd /Users/thunderzhulei/lay-zhu/ios-sim    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -L/Users/thunderzhulei/lay-zhu/ios-sim/build/Release -F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -filelist /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/ios-sim.LinkFileList -mmacosx-version-min=10.6 -framework AppKit -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -framework iPhoneSimulatorRemoteClient -Wl,-rpath -Wl,/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -Wl,-rpath -Wl,/Applications/Xcode.app/Contents/Developer/../OtherFrameworks -framework Foundation -o /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/Objects-normal/x86_64/ios-sim36"773DA9F0-CFA9-42B3-855C-DB5476BAB149-
+
+CProcessPCH /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-dmjqfwhqgarhicanhhaghtqjqity/ios-sim_Prefix.pch.pth ios-sim_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360015594.172416
+e360015596.758172
+r1
+xProcessPCH
+x/var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-dmjqfwhqgarhicanhhaghtqjqity/ios-sim_Prefix.pch.pth
+xios-sim_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile ios-sim_Prefix.pch6b482cea6675b541^8f17c2ec6675b541^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/thunderzhulei/lay-zhu/ios-sim/ios-sim_Prefix.pch0000000000000000^2915"ProcessPCH /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-dmjqfwhqgarhicanhhaghtqjqity/ios-sim_Prefix.pch.pth ios-sim_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thunderzhulei/lay-zhu/ios-sim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-generated-files.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-own-target-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-all-target-headers.hmap -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-project-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/include -I. -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources/i386 -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources -F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks --serialize-diagnostics /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-dmjqfwhqgarhicanhhaghtqjqity/ios-sim_Prefix.pch.dia -c /Users/thunderzhulei/lay-zhu/ios-sim/ios-sim_Prefix.pch -o /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-dmjqfwhqgarhicanhhaghtqjqity/ios-sim_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-dmjqfwhqgarhicanhhaghtqjqity/ios-sim_Prefix.pch.d36"6C1FD2B7-18DF-4472-840A-0D79032B84AB-
+
+CProcessPCH /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-hgzvntyzpibuqneridjhcsponopj/ios-sim_Prefix.pch.pth ios-sim_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360015594.171755
+e360015596.592950
+r1
+xProcessPCH
+x/var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-hgzvntyzpibuqneridjhcsponopj/ios-sim_Prefix.pch.pth
+xios-sim_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile ios-sim_Prefix.pch132a2cea6675b541^07d097ec6675b541^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/thunderzhulei/lay-zhu/ios-sim/ios-sim_Prefix.pch0000000000000000^2921"ProcessPCH /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-hgzvntyzpibuqneridjhcsponopj/ios-sim_Prefix.pch.pth ios-sim_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thunderzhulei/lay-zhu/ios-sim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-generated-files.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-own-target-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-all-target-headers.hmap -iquote /Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/ios-sim-project-headers.hmap -I/Users/thunderzhulei/lay-zhu/ios-sim/build/Release/include -I. -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources/x86_64 -I/Users/thunderzhulei/lay-zhu/ios-sim/build/ios-sim.build/Release/ios-sim.build/DerivedSources -F/Users/thunderzhulei/lay-zhu/ios-sim/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks --serialize-diagnostics /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-hgzvntyzpibuqneridjhcsponopj/ios-sim_Prefix.pch.dia -c /Users/thunderzhulei/lay-zhu/ios-sim/ios-sim_Prefix.pch -o /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-hgzvntyzpibuqneridjhcsponopj/ios-sim_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/z4/_5960lb16vn37xr3zdjfz60w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ios-sim_Prefix-hgzvntyzpibuqneridjhcsponopj/ios-sim_Prefix.pch.d36"1B840BFD-C8B0-4187-93D5-E453DD6C4C0E-
+
