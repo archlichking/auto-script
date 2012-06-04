@@ -1,19 +1,19 @@
 #coding=utf-8
 
 APP_LOCATION="/Users/thunderzhulei/Library/Application Support/iPhone Simulator/"
-if [ -z $1 ]
+if [ ! -z $1 ]
 then
   APP_LOCATION=$1
 fi
 
 APP_NAME="OFQAJenkins"
-if [ -z $2 ]
+if [ ! -z $2 ]
 then
   APP_NAME=$2
 fi
 
 IOS_VERSION="5.1"
-if [ -z $3 ]
+if [ ! -z $3 ]
 then
   IOS_VERSION=$3
 fi
