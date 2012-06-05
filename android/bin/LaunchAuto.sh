@@ -32,6 +32,10 @@ fi
 
 #Got last emulator
 last_emulator=`adb devices | grep emulator | tail -1 | awk '{print $1}'`
+if [ -z $last_emulator ]
+then
+  last_emulator="empty"
+fi
 echo "Last emulator before launch is "$last_emulator
 
 #Launch avd
