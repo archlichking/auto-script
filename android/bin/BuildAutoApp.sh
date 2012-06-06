@@ -34,7 +34,7 @@ cp $local_pro $sdk_root$signpost_common_path
 
 #Use ant to build the project
 cd $project_root
-rm $apk_path
+ant clean > /dev/null
 ant release >/dev/null
 if [ -f $apk_path ]
 then
