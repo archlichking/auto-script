@@ -24,6 +24,8 @@ then
   sh GenLocalProperties.sh
 fi
 
+cp $local_pro $project_root
+cp $local_pro $project_root/../OFQAAPI/
 cp $local_pro $sdk_root$sdk_path
 cp $local_pro $sdk_root$gson_path
 cp $local_pro $sdk_root$PTR_path
