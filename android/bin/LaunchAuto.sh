@@ -4,7 +4,7 @@
 
 # ========== Config ==================
 
-avd_name="avd_2.3.3"
+avd_name="my_avd"
 apk_path="/Users/vincentxie/OpenFeint/ggpautomation/android/GGPClient-Android/bin/GGPClient-Automation.apk"
 activity="com.openfeint.qa.ggp/.DailyRunActivity"
 
@@ -30,23 +30,52 @@ fi
 
 # ========== Action Begin ==========
 
+#Got last emulator
+last_emulator=`adb devices | grep emulator | tail -1 | awk '{print $1}'`
+if [ -z $last_emulator ]
+then
+  last_emulator="empty"
+fi
+echo "Last emulator before launch is "$last_emulator
+
 #Launch avd
 echo "Starting emulator...."
 emulator -avd $avd_name &
-sleep 120s
+
+#Wait until a new emulator launch completed
+sleep 20s
+new_emulator=`adb devices | grep emulator | tail -1 | awk '{print $1}'`
+echo "New emulator launched is "$new_emulator
+
+if [ $last_emulator != $new_emulator ]
+then
+  #wait launch complete
+  emulator_status=`adb devices | grep emulator | tail -1 | awk '{print $2}'`
+  while [ $emulator_status != "device" ]
+  do
+    echo "emulator still launching..."
+    sleep 3s
+    emulator_status=`adb devices | grep emulator | tail -1 | awk '{print $2}'`
+  done
+  echo "Launch done..."
+else
+  echo "Launch failed, need retry"
+  exit
+fi
 
 #Install automation app
+sleep 5s
 echo Install automation app....
-adb install -r $apk_path 
+adb -s $new_emulator install -r $apk_path 
 while [ $? -ne 0 ]
 do
   echo "try install again..."
   sleep 5s
-  adb install -r $apk_path
+  adb -s $new_emulator install -r $apk_path
 done
 
 #Start MainActivity to begin test run
-echo "Let start to run..."
 sleep 3s
-adb shell am start -n $activity
+echo "Let start to run..."
+adb -s $new_emulator shell am start -n $activity
 
