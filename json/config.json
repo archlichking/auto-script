@@ -1,9 +1,0 @@
-{
-  "auto_config":
-    {
-      "is_create_run" : true,
-      "suite_id" : "178",
-      "run_id" : "416",
-      "description" : "daily run automation"
-    }
-}
