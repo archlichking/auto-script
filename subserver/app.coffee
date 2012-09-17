@@ -9,6 +9,15 @@ run_config = JSON.parse fs.readFileSync __dirname + "/config.json"
 CASE_RESULT_TPL = '<test name="#N" executed="#E"><result><success passed="#R" state="100" hasTimedOut="false" /></result></test>'
 app = express()
 
+# Helper
+
+SLog = (level, text)->
+  switch level
+    when 'info' then console.info('[' + Date() + '] ==> ' + text)
+    when 'error' then console.error('[' + Date() + '] ==> ' + text)
+    when 'log' then console.log('[' + Date() + '] ==> ' + text)
+    else console.log('[' + Date() + '] ==> ' + text)
+
 # Configuration
 
 app.configure ()->
@@ -29,33 +38,52 @@ app.configure 'production', ()->
 # Routers
 
 app.get '/ios/config', (req, res)->
-  console.log '=======>  someone is requesting ios config'
+  SLog 'info', '------------- begin config ----------------------'
+  SLog 'info', 'someone is requesting ios config'
   if req.param('key') isnt run_config.auto_config.tcm_key
-    console.log '=======>  tcm key not match, warning caller'
+    SLog 'error', 'tcm key not match, warning caller'
     res.send 'nil'
   else
-    console.log '=======>  responding'
-    res.send run_config
+    SLog 'info', 'responding'
+    r = 
+      auto_config :
+        is_create_run : run_config.auto_config.is_create_run
+        suite_id : run_config.auto_config.suite_id
+        run_id : run_config.auto_config.run_id.ios
+    res.send r
 
 app.get '/android/config', (req, res)->
-  res.send run_config
+  SLog 'info',  '------------- begin config ----------------------'
+  SLog 'info',  'someone is requesting android config'
+  if req.param('key') isnt run_config.auto_config.tcm_key
+    SLog 'error', 'tcm key not match, warning caller'
+    res.send 'nil'
+  else
+    SLog 'info', 'responding'
+    r = 
+      auto_config :
+        is_create_run : run_config.auto_config.is_create_run
+        suite_id : run_config.auto_config.suite_id
+        run_id : run_config.auto_config.run_id.android
+    res.send r
 
 app.post '/ios/report', (req, res)->
   r = 
     status : '0'
     message : 'passed'
 
-  console.log '=======>  someone is requesting report generation'
+  SLog 'info', '------------- begin report ----------------------'
+  SLog 'info', 'someone is requesting report generation'
 
   if req.param('key') isnt run_config.auto_config.tcm_key
-    console.log '=======>  tcm key not match, warning caller'
+    SLog 'error', 'tcm key not match, warning caller'
     r.status = 1
     r.message = 'don\'t do harm to little subserver, you need a valid key to do so :-<'
     res.send r
   else 
     res_body = ''
     tcm = https.get 'https://tcm.openfeint.com:443//index.php?/miniapi/get_tests/'+run_config.auto_config.run_id + '&key=' + run_config.auto_config.tcm_key, (response)->
-      console.log '=======>  tcm responds http ' + response.statusCode
+      SLog 'info', 'tcm responds http ' + response.statusCode
 
       response.on 'data', (d)->
         res_body += d
@@ -63,7 +91,7 @@ app.post '/ios/report', (req, res)->
       response.on 'end', ()->
         tcm_result = JSON.parse res_body
         tcm_cases = tcm_result['tests']
-        console.log '=======>  parsing tcm result'
+        SLog 'info', 'parsing tcm result'
         jenkins_report_xml = '<report name="test_report" categ="CATEGORY_NAME">'
 
         for tcm_case in tcm_cases
@@ -72,18 +100,18 @@ app.post '/ios/report', (req, res)->
             executed = 'no'
 
           result = 'no'
-          if tcm_case['status_id'] in [1, 5]
+          if tcm_case['status_id'] in [1]
             result = 'yes'
 
           jenkins_report_xml += CASE_RESULT_TPL.replace('#N', tcm_case['title']).replace('#E', executed).replace('#R', result)
 
         jenkins_report_xml += '</report>'
-        console.log '=======>  generating report for build'
+        SLog 'info', 'generating report for build'
 
         fs.writeFile run_config.auto_config.jenkins_ws_root + 'test_report.xml', jenkins_report_xml, (err)->
-          console.log '=======>  report done'
+          SLog 'info', 'report done'
           if err
-            console.log err
+            console.error err
             r.status = 0
             r.message = 'error occurs while writing report to hard disk'
           else
@@ -92,9 +120,9 @@ app.post '/ios/report', (req, res)->
           res.send r
 
     tcm.on 'error', (e)->
-      console.error e
+      SLog 'error', e
 
   # need generate report in specific format below
 
 app.listen 3000
-console.log "Express server listening on port %d in %s mode", app.settings.env
+SLog 'info', 'Express server listening on port 3000'
