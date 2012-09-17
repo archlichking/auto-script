@@ -2,9 +2,10 @@
   "auto_config":
     {
       "is_create_run" : true,
-      "suite_id" : "178",
-      "run_id" : "416",
+      "suite_id" : "339",
+      "run_id" : "554",
       "description" : "daily run automation",
-      "jenkins_ws_root" : "./"
+      "jenkins_ws_root" : "/Users/thunderzhulei/.jenkins/jobs/GGPAutomationSDK-IOS/workspace/",
+      "tcm_key" : "adfqet87983hiu783flkad09806g98adgk"
     }
 }
