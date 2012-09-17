@@ -7,7 +7,6 @@ https = require 'https'
 run_config = JSON.parse fs.readFileSync __dirname + "/config.json"
 
 CASE_RESULT_TPL = '<test name="#N" executed="#E"><result><success passed="#R" state="100" hasTimedOut="false" /></result></test>'
-JENKINS_WS_ROOT＝ ''
 app = express()
 
 # Configuration
@@ -63,7 +62,7 @@ app.get '/ios/result', (req, res)->
       jenkins_report_xml += '</report>'
       console.log 'generating report for build'
 
-      fs.writeFile JENKINS_WS_ROOT + 'test_report.xml', jenkins_report_xml, (err)->
+      fs.writeFile run_config.auto_config.jenkins_ws_root + 'test_report.xml', jenkins_report_xml, (err)->
         console.log 'report done'
         if err
           console.log err
