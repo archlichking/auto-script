@@ -39,7 +39,7 @@ app.configure 'production', ()->
 
 app.get '/ios/config', (req, res)->
   SLog 'info', '------------- begin config ----------------------'
-  SLog 'info', 'someone is requesting ios config'
+  SLog 'info',  req.ip + ' is requesting ios config'
   if req.param('key') isnt run_config.auto_config.tcm_key
     SLog 'error', 'tcm key not match, warning caller'
     res.send 'nil'
@@ -54,7 +54,7 @@ app.get '/ios/config', (req, res)->
 
 app.get '/android/config', (req, res)->
   SLog 'info',  '------------- begin config ----------------------'
-  SLog 'info',  'someone is requesting android config'
+  SLog 'info',  req.ip + ' is requesting android config'
   if req.param('key') isnt run_config.auto_config.tcm_key
     SLog 'error', 'tcm key not match, warning caller'
     res.send 'nil'
@@ -73,7 +73,7 @@ app.post '/ios/report', (req, res)->
     message : 'passed'
 
   SLog 'info', '------------- begin report ----------------------'
-  SLog 'info', 'someone is requesting report generation'
+  SLog 'info', req.ip + ' is requesting report generation'
 
   if req.param('key') isnt run_config.auto_config.tcm_key
     SLog 'error', 'tcm key not match, warning caller'
