@@ -50,7 +50,7 @@ app.get '/ios/config', (req, res)->
         is_create_run : run_config.auto_config.is_create_run
         suite_id : run_config.auto_config.suite_id
         run_id : run_config.auto_config.run_id.ios
-    res.send r
+    res.send JSON.stringify(r)
 
 app.get '/android/config', (req, res)->
   SLog 'info',  '------------- begin config ----------------------'
@@ -65,9 +65,9 @@ app.get '/android/config', (req, res)->
         is_create_run : run_config.auto_config.is_create_run
         suite_id : run_config.auto_config.suite_id
         run_id : run_config.auto_config.run_id.android
-    res.send r
+    res.send JSON.stringify(r)
 
-app.post '/ios/report', (req, res)->
+app.get '/ios/report', (req, res)->
   r = 
     status : '0'
     message : 'passed'
