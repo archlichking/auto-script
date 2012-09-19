@@ -67,7 +67,7 @@ app.get '/android/config', (req, res)->
         run_id : run_config.auto_config.run_id.android
     res.send JSON.stringify(r)
 
-app.get '/ios/report', (req, res)->
+app.post '/ios/report', (req, res)->
   r = 
     status : '0'
     message : 'passed'
@@ -82,7 +82,7 @@ app.get '/ios/report', (req, res)->
     res.send r
   else 
     res_body = ''
-    tcm = https.get 'https://tcm.openfeint.com:443//index.php?/miniapi/get_tests/'+run_config.auto_config.run_id + '&key=' + run_config.auto_config.tcm_key, (response)->
+    tcm = https.get 'https://tcm.openfeint.com:443//index.php?/miniapi/get_tests/'+run_config.auto_config.run_id.ios + '&key=' + run_config.auto_config.tcm_key, (response)->
       SLog 'info', 'tcm responds http ' + response.statusCode
 
       response.on 'data', (d)->
@@ -90,6 +90,7 @@ app.get '/ios/report', (req, res)->
 
       response.on 'end', ()->
         tcm_result = JSON.parse res_body
+
         tcm_cases = tcm_result['tests']
         SLog 'info', 'parsing tcm result'
         jenkins_report_xml = '<report name="test_report" categ="CATEGORY_NAME">'
