@@ -67,6 +67,102 @@ app.get '/android/config', (req, res)->
         run_id : run_config.auto_config.run_id.android
     res.send JSON.stringify(r)
 
+###
+  get params:
+    key      : tcm-key
+    platform : platform (ios/android) who is requesting automation config
+###
+app.get '/config', (req, res)->
+  SLog 'info',  '------------- begin config ----------------------'
+  SLog 'info',  req.ip + ' is requesting config'
+  if req.param('key') isnt run_config.auto_config.tcm_key
+    SLog 'error', 'tcm key not match, warning caller'
+    res.send 'nil'
+
+  else if req.param('platform') not in ['ios', 'android']
+    SLog 'error', 'platform missing or not equals to ios or android'
+    res.send 'nil'
+
+  else
+    SLog 'info', 'responding'
+    r = 
+      auto_config :
+        is_create_run : run_config.auto_config.is_create_run
+        suite_id : run_config.auto_config.suite_id
+        run_id :  run_config.auto_config.run_id[req.param('platform')]
+    res.send JSON.stringify(r)
+
+###
+  post params:
+    key       : tcm-key
+    runId     : tcm run id
+    reportDir : location to generate report
+###
+app.post '/report', (req, res)->
+  r = 
+    status : '0'
+    message : 'passed'
+
+  SLog 'info', '------------- begin report ----------------------'
+  SLog 'info', req.ip + ' is requesting report generation'
+
+  if req.param('key') isnt run_config.auto_config.tcm_key
+    SLog 'error', 'tcm key not match, warning caller'
+    r.status = 0
+    r.message = 'don\'t do harm to little subserver, you need a valid key to do so :-<'
+    res.send r
+
+  else if not req.param('runId') or not req.param('reportDir')
+    SLog 'error', 'runID or reportDir is nil'
+    r.status = 0
+    r.message = 'don\'t do harm to little subserver, you need a valid runId or reportDir :-<'
+    res.send r
+
+  else
+    res_body = ''
+    tcm = https.get 'https://tcm.openfeint.com:443//index.php?/miniapi/get_tests/'+req.param('runId') + '&key=' + req.param('key'), (response)->
+      SLog 'info', 'tcm responds http ' + response.statusCode
+
+      response.on 'data', (d)->
+        res_body += d
+
+      response.on 'end', ()->
+        tcm_result = JSON.parse res_body
+
+        tcm_cases = tcm_result['tests']
+        SLog 'info', 'parsing tcm result'
+        jenkins_report_xml = '<report name="test_report" categ="CATEGORY_NAME">'
+
+        for tcm_case in tcm_cases
+          executed = 'yes'
+          if tcm_case['status_id'] in [0, 2, 4]
+            executed = 'no'
+
+          result = 'no'
+          if tcm_case['status_id'] in [1]
+            result = 'yes'
+
+          jenkins_report_xml += CASE_RESULT_TPL.replace('#N', tcm_case['title']).replace('#E', executed).replace('#R', result)
+
+        jenkins_report_xml += '</report>'
+        SLog 'info', 'generating report for build'
+
+
+
+        fs.writeFile req.param('reportDir') + 'test_report.xml', jenkins_report_xml, (err)->
+          SLog 'info', 'report done'
+          if err
+            console.error err
+            r.status = 0
+            r.message = 'error occurs while writing report to hard disk'
+          else
+            r.status = 1
+            r.message = 'report generated'
+          res.send r
+
+    tcm.on 'error', (e)->
+      SLog 'error', e
+
 app.post '/ios/report', (req, res)->
   r = 
     status : '0'
@@ -77,9 +173,10 @@ app.post '/ios/report', (req, res)->
 
   if req.param('key') isnt run_config.auto_config.tcm_key
     SLog 'error', 'tcm key not match, warning caller'
-    r.status = 1
-    r.message = 'don\'t do harm to little subserver, you need a valid key to do so :-<'
+    r.status = 0
+    r.message = 'don\'t do harm to little subserver, you need a valid key :-<'
     res.send r
+
   else 
     res_body = ''
     tcm = https.get 'https://tcm.openfeint.com:443//index.php?/miniapi/get_tests/'+run_config.auto_config.run_id.ios + '&key=' + run_config.auto_config.tcm_key, (response)->
@@ -108,6 +205,8 @@ app.post '/ios/report', (req, res)->
 
         jenkins_report_xml += '</report>'
         SLog 'info', 'generating report for build'
+
+
 
         fs.writeFile run_config.auto_config.jenkins_ws_root + 'test_report.xml', jenkins_report_xml, (err)->
           SLog 'info', 'report done'
