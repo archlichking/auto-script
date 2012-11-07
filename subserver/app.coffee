@@ -133,16 +133,17 @@ app.post '/report', (req, res)->
         SLog 'info', 'parsing tcm result'
         jenkins_report_xml = '<report name="test_report" categ="CATEGORY_NAME">'
 
-        for tcm_case in tcm_cases
-          executed = 'yes'
-          if tcm_case['status_id'] in [0, 2, 4]
-            executed = 'no'
+        if tcm_cases
+          for tcm_case in tcm_cases
+            executed = 'yes'
+            if tcm_case['status_id'] in [0, 2, 4]
+              executed = 'no'
 
-          result = 'no'
-          if tcm_case['status_id'] in [1]
-            result = 'yes'
+            result = 'no'
+            if tcm_case['status_id'] in [1]
+              result = 'yes'
 
-          jenkins_report_xml += CASE_RESULT_TPL.replace('#N', tcm_case['title']).replace('#E', executed).replace('#R', result)
+            jenkins_report_xml += CASE_RESULT_TPL.replace('#N', tcm_case['title']).replace('#E', executed).replace('#R', result)
 
         jenkins_report_xml += '</report>'
         SLog 'info', 'generating report for build'
@@ -179,7 +180,7 @@ app.post '/ios/report', (req, res)->
 
   else 
     res_body = ''
-    tcm = https.get 'https://tcm.openfeint.com:443//index.php?/miniapi/get_tests/'+run_config.auto_config.run_id.ios + '&key=' + run_config.auto_config.tcm_key, (response)->
+    tcm = https.get 'https://tcm.openfeint.com:443/index.php?/miniapi/get_tests/'+run_config.auto_config.run_id.ios + '&key=' + run_config.auto_config.tcm_key, (response)->
       SLog 'info', 'tcm responds http ' + response.statusCode
 
       response.on 'data', (d)->
