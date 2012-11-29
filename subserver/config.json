@@ -9,7 +9,8 @@
       	"android": "402"
       },
       "description" : "automation daily run",
-      "jenkins_ws_root" : "/Users/thunderzhulei/.jenkins/jobs/GGPAutomationSDK-IOS/workspace/",
-      "tcm_key" : "adfqet87983hiu783flkad09806g98adgk"
-    }
+      "jenkins_ws_root" : "/Users/thunderzhulei/.jenkins/jobs/GGPAutomationSDK-IOS/workspace/"
+    },
+
+    "tcm_key" : "adfqet87983hiu783flkad09806g98adgk"
 }

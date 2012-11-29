@@ -1,0 +1,38 @@
+{
+	"/ios/ggp/config":{
+		"auto_config":
+    	{
+			"is_create_run" : true,
+			"suite_id" : "178",
+			"run_id" : "416",
+			"description" : "ios ggp client sdk automation daily run"
+		}
+	},
+	"/ios/vgs/config":{
+		"auto_config":
+    	{
+			"is_create_run" : true,
+			"suite_id" : "369",
+			"run_id" : "606",
+			"description" : "ios vgs client sdk automation daily run"
+		}
+	},
+	"/ios/ggp/report":{
+		"run_id" : "416",
+		"jenkins_ws_root" : "/Users/thunderzhulei/.jenkins/jobs/GGPAutomationSDK-IOS/workspace/"
+	},
+	"/ios/vgs/report":{
+		"run_id" : "606",
+		"jenkins_ws_root" : "/Users/thunderzhulei/.jenkins/jobs/VGSAutomationSDK-IOS/workspace/"
+	},
+	"/android/config":{
+		"auto_config":
+    	{
+			"is_create_run" : true,
+			"suite_id" : "178",
+			"run_id" : "402",
+			"description" : "android ggp client sdk automation daily run",
+			"jenkins_ws_root" : "/Users/thunderzhulei/.jenkins/jobs/GGPAutomationSDK-IOS/workspace/"
+		}
+	}
+}
