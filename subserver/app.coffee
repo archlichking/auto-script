@@ -6,6 +6,7 @@ https = require 'https'
 
 
 TCM_KEY = "adfqet87983hiu783flkad09806g98adgk"
+run_config = JSON.parse fs.readFileSync __dirname + "/config.json"
 routes = JSON.parse fs.readFileSync __dirname + "/router.json"
 
 CASE_RESULT_TPL = '<test name="#N" executed="#E"><result><success passed="#R" state="100" hasTimedOut="false" /></result></test>'
